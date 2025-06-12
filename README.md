@@ -30,20 +30,22 @@ All endpoints are available under:
 Returns statistics about the total number of songs played, total gigs, and unique songs.
 
 **Example response:**
-```json object
+```json
 {
   "total_songs_played": 186,
   "total_gigs": 75,
   "total_unique_songs": 52
 }
+```
 
 ### `GET /venues`
 Return all the uses venues from the ACF field venue_name
 
 **Example response:**
-```json array
+```json
 [
   "Ancienne Belgique",
   "Paradiso",
   "De Kreun"
 ]
+```
