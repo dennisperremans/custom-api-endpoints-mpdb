@@ -7,7 +7,7 @@ A lightweight WordPress plugin that exposes custom REST API endpoints for use wi
 ## Plugin Details
 
 - **Plugin Name:** Custom API Endpoints
-- **Version:** 1.1
+- **Version:** 1.1.1
 - **Author:** Dennis Perremans
 
 ---
@@ -47,5 +47,29 @@ Return all the uses venues from the ACF field venue_name
   "Ancienne Belgique",
   "Paradiso",
   "De Kreun"
+]
+```
+
+### `GET /countries`
+Return all the uses countries from the ACF field country
+
+**Example response:**
+```json
+[
+  "Belgium",
+  "Italy",
+  "Norway"
+]
+```
+
+### `GET /cities`
+Return all the uses cities from the ACF field country
+
+**Example response:**
+```json
+[
+  "Hasselt",
+  "Brussels",
+  "Trondheim"
 ]
 ```

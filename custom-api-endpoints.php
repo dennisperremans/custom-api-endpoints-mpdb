@@ -2,7 +2,7 @@
 /*
 Plugin Name: Custom API endpoints
 Description: Exposes API endpoints for MPDB WP site
-Version: 1.1
+Version: 1.1.1
 Author: Dennis Perremans
 */
 
