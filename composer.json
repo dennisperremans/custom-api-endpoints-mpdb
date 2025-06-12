@@ -1,0 +1,12 @@
+{
+  "name": "dennisperremans/custom-api-endpoints-mpdb",
+  "type": "wordpress-plugin",
+  "description": "Custom API endpoints for MPDB",
+  "authors": [
+    {
+      "name": "Dennis Perremans",
+      "email": "perremansdennis@gmail.com"
+    }
+  ],
+  "require": {}
+}
